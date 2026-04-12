@@ -1,0 +1,11 @@
+services:
+  mkdocs:
+    image: squidfunk/mkdocs-material
+    container_name: mkdocs-dev
+    user: "${UID}:${GID}" # L'utilisateur et le groupe sont définis pour éviter les problèmes de permissions lors de la création du site internet
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./docs:/docs:Z # :Z pour éviter les problèmes de permissions lors de la création du site internet
+    command: serve
+    restart: unless-stopped
