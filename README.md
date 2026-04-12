@@ -1,12 +1,10 @@
-# Titre du projet
-
-![Bannière du projet]()
+# Documentation - Linux Fedora
 
 ---
 
 ## Contexte
 
-[Décrire le projet]
+Ce dépôt est créer dans le but de partager ma configuration de Fedora avec mes paramètres, mes outils ainsi que la personnalisation du système.
 
 ---
 
@@ -30,14 +28,8 @@
 1. **Cloner le dépôt localement**
 
 ```
-git clone <url>
-cd <nom-dossier>
-```
-
-2. [Titre de l'étape]
-
-```
-Exemple de commande
+git clone git@github.com:FireToak/perso_fedora-linux.git
+cd perso_documentation-fedora
 ```
 
 ---
@@ -50,5 +42,5 @@ Exemple de commande
 
 <div align="center">
   <br/>
-  <small><i>Dernière mise à jour : 21 mars 2026</i></small>
+  <small><i>Dernière mise à jour : 12 avril 2026</i></small>
 </div>
