@@ -142,16 +142,6 @@ Cette procédure a pour but de montrer l'installation et la configuration de Vag
     sudo firewall-cmd --reload
     ```
 
-2. **Configuration du fournisseur par défaut.** Pour éviter de devoir spécifier `--provider libvirt` à chaque commande, configurez Vagrant pour qu'il utilise KVM par défaut. Créez ou éditez le fichier `~/.vagrant.d/Vagrantfile`.
-
-    ```ruby
-    Vagrant.configure("2") do |config|
-      config.vagrant.plugins = ["vagrant-libvirt"]
-    end
-
-    ENV['VAGRANT_DEFAULT_PROVIDER'] = 'libvirt'
-    ```
-
 ---
 
 ## Ressources
